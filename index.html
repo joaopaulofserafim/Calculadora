@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="img/x-icon" href="JEMA GER 1650-04.jpg" >
+    <link rel="stylesheet" href="/src/style/style.css">
+    <link rel="icon" type="img/x-icon" href="/src/img/JEMA GER 1650-04.jpg" >
     <title>Calculadora</title>
 </head>
 
 <body>
-    <h1>Jonny</h1>
+    <h1 class="my-name">João Paulo</h1>
 
     <div class="calculadora">
-        <h2>Calculadora</h2>
-        <p id="resultado">j</p>
+        <p id="resultado"></p>
         <table>
             <tr>
                 <td><button id="botao" onclick= "clean()" >C</button></td>
@@ -42,11 +41,11 @@
                 <td><button id="botao" onclick="insert('1')">1</button></td>
                 <td><button id="botao" onclick="insert('2')">2</button></td>
                 <td><button id="botao" onclick="insert('3')">3</button></td>
-                <td rowspan="2"><button id="botao" style="height: 106px;" onclick="calcular()" >=</button></td>
+                <td rowspan="2"><button id="botao" style="height: 150px;" onclick="calcular()" >=</button></td>
             </tr>
 
             <tr>
-                <td colspan="2"><button id="botao" style="width: 106px;" onclick="insert('0')">0</button></td>
+                <td colspan="2"><button id="botao" style="width: 120px;" onclick="insert('0')">0</button></td>
                 <td><button id="botao" onclick="insert('.')">.</button></td>
             </tr>
         </table>
@@ -54,6 +53,6 @@
 
 
 
-    <script src="vm-ve.js"></script>
+    <script src="/src/js/script.js"></script>
 </body>
 </html>
