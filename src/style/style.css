@@ -36,7 +36,7 @@ h2 {
 }
 
 #resultado {
-    background: #000000;
+    background: rgba(0, 0, 0, 0.832);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
