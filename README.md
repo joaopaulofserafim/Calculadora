@@ -2,6 +2,8 @@
 
 Este é um projeto de uma calculadora simples desenvolvido em HTML, CSS e JavaScript. A calculadora permite realizar operações básicas como adição, subtração, multiplicação e divisão.
 
+O site está disponível em: [Calculadora Simples](https://joaopaulofserafim.github.io/Calculadora/))
+
 ## Estrutura do Projeto
 
 O projeto está estruturado da seguinte forma:
